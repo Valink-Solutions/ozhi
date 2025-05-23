@@ -5,7 +5,6 @@
 [![Publish](https://github.com/Valink-Solutions/ozhi/actions/workflows/publish.yml/badge.svg?branch=master)](https://github.com/Valink-Solutions/ozhi/actions/workflows/publish.yml)
 ![NPM Version](https://img.shields.io/npm/v/%40valink-solutions-ltd%2Fozhi)
 
-
 A comprehensive pluggable audit system for SvelteKit applications with seamless integration for Drizzle ORM, Better-Auth, Resend, and Stripe.
 
 ## Features
