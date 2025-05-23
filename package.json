@@ -1,6 +1,8 @@
 {
-	"name": "ozhi",
-	"version": "0.0.1",
+	"name": "@valink-solutions-ltd/ozhi",
+	"version": "0.1.0",
+	"license": "MIT",
+	"description": "Simple pluggable audit middleware for Svelte 5 and SvelteKit",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -51,11 +53,23 @@
 		"vite": "^6.2.6"
 	},
 	"keywords": [
-		"svelte"
+		"svelte",
+		"ozhi",
+		"audit",
+		"alert",
+		"email",
+		"notification"
 	],
 	"dependencies": {
 		"drizzle-orm": "^0.40.0",
-		"postgres": "^3.4.5"
+		"nanoid": "^5.1.5",
+		"postgres": "^3.4.5",
+		"resend": "^4.5.1",
+		"stripe": "^18.1.1"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
